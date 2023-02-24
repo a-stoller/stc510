@@ -1,17 +1,26 @@
+Ashley Stoller (Daniels) - STC 510 Module 2 Script
+
 Script started on 2023-02-20 19:50:14-08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="102" LINES="51"]
-[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [7mwget https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0&file_[27m[7ms[27m[7mubpath=%2Flog.csv[27m[A]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ wget https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0&file_subpath=%2Flog.csv
-[?2004l[1] 714
-[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ 
+[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [7mwget https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0&file_[27m[7ms[27m[7mubpath=%2Flog.csv[27m[A
+]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ wget https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0&file_subpath=%2Flog.csv
+[?2004l
+[1] 714
+[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ 
 Redirecting output to ‘wget-log’.
 
-[?2004l[1]+  Done                    wget https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0
-[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [7mtar xvfz log.tar.gz?dl=0[27mtar xvfz log.tar.gz?dl=0
-[?2004llog.csv
-[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [7mgrep "education*.txt" log.csv >> topSecretFbiFiles[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep "education*.txt" log.csv >> topSecretFbiFiles
-[?2004l[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ cat topSecretFbiFiles
-[?2004l86.153.148.abf,2017-06-27,06:14:10,0.0,1046568.0,0001132625-10-000026,v13ga4careereducation.txt,200.0,5440.0,0.0,0.0,0.0,10.0,0.0,
+[?2004l
+[1]+  Done                    wget https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0
+[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [7mtar xvfz log.tar.gz?dl=0[27mtar xvfz log.tar.gz?dl=0
+[?2004l
+log.csv
+[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [7mgrep "education*.txt" log.csv >> topSecretFbiFiles[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep "education*.txt" log.csv >> topSecretFbiFiles
+[?2004l
+[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ cat topSecretFbiFiles
+[?2004l
+86.153.148.abf,2017-06-27,06:14:10,0.0,1046568.0,0001132625-10-000026,v13ga4careereducation.txt,200.0,5440.0,0.0,0.0,0.0,10.0,0.0,
 86.153.148.abf,2017-06-27,22:41:48,0.0,1046568.0,0001132625-09-000021,v13ga3careereducation.txt,200.0,5619.0,0.0,0.0,0.0,10.0,0.0,
-[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~[01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [?2004l
+[?2004h]0;ashleylstoller@DESKTOP-0HSOI06: ~ [01;32mashleylstoller@DESKTOP-0HSOI06[00m:[01;34m~[00m$ [?2004l
 exit
 
 Script done on 2023-02-20 19:53:34-08:00 [COMMAND_EXIT_CODE="0"]
